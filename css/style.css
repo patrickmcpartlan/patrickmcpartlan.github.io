@@ -220,3 +220,8 @@ body {
 	top:0; 
 	left:0; 
 } 
+
+img {
+  width: 100%;
+  height: auto;
+}
