@@ -214,3 +214,9 @@ body {
         background:#7FFF00; [/COLOR][COLOR=Blue][COLOR=DarkGreen]/*turns this color briefly when link is selected*/[/COLOR]
         color:#000;
     }[/COLOR]
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
