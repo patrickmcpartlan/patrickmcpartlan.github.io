@@ -4,7 +4,7 @@ font-size: 30px; /* assigns the type size for the heading */
 }
 
 div {
-	background-color: #7FFFD4;
+	background-color: #FFFFFF;
 	}
 
 	p {
@@ -61,7 +61,7 @@ header {
 }
 /***** NAVBAR *****/
 .navbar-default {
-  background-color: #863ee3;
+  background-color: #400ee3;
   border-radius: 0;
   background-image: none;
 }
@@ -83,7 +83,7 @@ header {
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #FF0000;
   font-size: 16px;
 }
 
@@ -177,9 +177,8 @@ body {
         padding:0;
         margin:0;
     }
-    #nav a:link,
-    #nav a:visited {
-        color:#000;
+    #nav a:link {
+        color:#FF000;
         background:#708090;
         padding:20px 40px 4px 10px;
         float:left;
@@ -222,3 +221,9 @@ body {
 } 
 
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
