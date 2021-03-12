@@ -1,7 +1,9 @@
 h1 {
-color: #ff0000; /* assigns a color value to the h1 element */
+color: green; /* assigns a color value to the h1 element */
 font-size: 30px; /* assigns the type size for the heading */	
 }
+
+
 
 div {
 	background-color: green;
@@ -230,3 +232,9 @@ body {
 
 .border { border-width: 25px; border-color: #8B0000; border-style: solid; }
 
+h4{
+  font-size: 16px;
+  background-color: greenyellow;
+  align-content: center;
+  
+}
