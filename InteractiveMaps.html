@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Global Shipping Map</title>
+
+<link href="css/leaflet.css" type="text/css" rel=stylesheet>
+<link href="css/style.css" type="text/css" rel=stylesheet>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<h1>
+Top Shipping Ports of the World
+</h1>
+<div id="content">
+    <a href="https://artuk.org/discover/artworks/glenroy-in-camouflage-103702">
+        <img src="images/Glenroy In Camouflage.jpg" style="max-width:30%;" alt="Credit: Walter Thomas">
+        </a>
+</div>
+
+<h3>The Liner Shipping Connectivity Index (LSCI) aims at capturing the level of integration into the existing liner shipping network 
+    by measuring liner shipping connectivity. It can be calculated at the country and the port level. 
+    LSCI can be considered a proxy of the accessibility to global trade through to proxy of its shipping network. 
+    The higher the index, the easier it is to access a high capacity and frequency global maritime freight transport system and 
+    effectively participate in international trade. Therefore, LSCI can be jointly considered as a measure of connectivity to 
+    maritime shipping and as a measure of trade facilitation. It reflects the strategies of container shipping lines seeking to 
+    maximize revenue through market coverage. <ul>The index is calculated based on six major components:</ul>
+</h3>
+<P>SCHEDULED SHIP CALLS</P>
+<P>DEPLOYED CAPACITY</P>
+<P>NUMBER OF SHIPPING COMPANIES AND LINER SERVICES</P>
+<P>AVERAGE AND VESSEL SIZE</P>
+<P>DIRECTLY CONNECTED PORTS</P>
+
+<h4>The above information was gathered at <a href="https://porteconomicsmanagement.org/pemp/contents/part1/ports-and-container-shipping/country-port-level-liner-shipping-connectivity-index/#:~:text=The%20Liner%20Shipping%20Connectivity%20Index,country%20and%20the%20port%20level.">Port Economics, Managment and Policy</a></h4>
+
+<h2>The map below represents data related to each of the top 185 world-wide shipping ports in terms of each individual port Liner Shipping Connectivity Index
+</h2>
+<div id="map"></div>
+<script src = "lib/jquery-3.5.1.min.js"></script>
+<script src= "lib/leaflet.js"></script>
+
+<script src='data/usmajorports.js'></script>
+<script src='data/AllGlobalPorts.js'></script>
+<script src="lib/leaflet.ajax.min.js"></script>
+<script src="lib/leaflet-providers.js"></script>
+
+<script src="js/main.js"></script>
+<p>
+    <body> The data for this map was retrieved and produced using a variety of data sets from the following sources: 
+        The United Nations Conference On Trade and Development
+        (data can be retrieved at the following source : 
+        <a href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx?sCS_ChosenLang=en">UNCTADSTAT Data Center</a>) 
+    & using The Human Data Exchange (data related to the locations of the ports can be retrieved at the following source: 
+    <a href="https://data.humdata.org/dataset/global-ports">Global ports (WFP SDI-T - Logistics Database)</a>)) 
+<p>Additional Credit to GPS Visualizer. Some Points on the map are subject to error. For the full dataset used please email me pjmcpartlan@wisc.edu</p>    
+</body>
+    
+        
+</p>
+</body>
+</html>

@@ -1,0 +1,232 @@
+h1 {
+color: #ff0000; /* assigns a color value to the h1 element */
+font-size: 30px; /* assigns the type size for the heading */	
+}
+
+div {
+	background-color: green;
+	}
+
+	p {
+		color: #FOFFFF;
+	}
+
+	#div-main {
+	background-color: #666;
+	}
+	
+	#div-main p {
+	color: #fff;
+	}
+
+	.div-special {
+	background-color: #333;
+	}
+
+	.div-special p {
+	color: #ccc;
+	}
+
+footer {
+	padding: 10px 10px 5px 10px;
+	position: relative;
+	background-color: #333379;
+	margin: 0px 20px 0px 20px;
+	box-shadow: 0px 5px 10px;
+	overflow: hidden
+}
+
+footer p {
+	padding: 0px;
+	margin: 0px;
+	font-size: 0.7em;
+	color: #fff
+}
+
+footer a {
+	color: #448ccb
+}
+
+header {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 10px 20px -23px 20px;
+	background-color: #F0F8FF;
+	box-shadow: 0px 0px 0px;
+	position: relative
+}
+header {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #400ee3;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #FF0000;
+  font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #ebd122;
+  color: #242424;
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: #fff;
+  border-color: #863ee3;
+  border-width: 2px;
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #ebd122;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+#about-world {
+  max-height: 200px;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #8B0000;
+}
+
+a:hover {
+  color: #ebd122;
+}
+
+.jumbotron {
+  background-image: url("../assets/contour-lines.png");
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+}
+
+.jumbotron h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 50px;
+  font-family: 'Georgia', serif;
+  background-color: #f7f1fa;
+  color: #242424;
+}
+    #nav {
+        margin:0;
+        padding:0;
+        background:#708090 url(nav_bg.jpg) 0 0 repeat-x;
+        width:100%;
+        float:left;
+        border:1px solid #191970;
+        border-width:1px 1px 1px 0;
+    }
+    #nav li {
+        display:inline;
+        padding:0;
+        margin:0;
+    }
+    #nav a:link {
+        color:#FF000;
+        background:#708090;
+        padding:20px 40px 4px 10px;
+        float:left;
+        width:auto;
+        border-right:1px solid #191970;
+        text-decoration:none;
+        font:bold 1em/1em Arial, Helvetica, sans-serif;
+        text-transform:uppercase;
+        text-shadow: 2px 2px 2px #555;
+    }
+    #nav a:hover {
+        color:#fff;
+        background:#191970;
+    }
+    #nav li:first-child a {
+        border-left:1px solid #191970;
+    }
+[COLOR=Blue]    #home #nav-home a,
+    #about #nav-about a,
+    #contact #nav-contact a {
+        background:#00FFFF; [COLOR=DarkGreen]/* Active Page Color */[/COLOR]
+        color:#000;
+        text-shadow:none;
+    }[/COLOR]
+    #home #nav-home a:hover,
+    #about #nav-about a:hover,
+    #contact #nav-contact a:hover {
+        background:#FFF;
+        color:#000;
+    }
+[COLOR=Blue]    #nav a:active {
+        background:#7FFF00; [/COLOR][COLOR=Blue][COLOR=DarkGreen]/*turns this color briefly when link is selected*/[/COLOR]
+        color:#000;
+    }[/COLOR]
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.border { border-width: 25px; border-color: #8B0000; border-style: solid; }
+
