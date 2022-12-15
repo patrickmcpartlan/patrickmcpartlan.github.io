@@ -1,6 +1,6 @@
 h1 {
 color: #ff0000; /* assigns a color value to the h1 element */
-font-size: 30px; /* assigns the type size for the heading */	
+font-size: 3.5vw; /* assigns the type size for the heading */	
 }
 
 div {
@@ -69,9 +69,10 @@ header {
 /* Navbar title */
 .navbar-default .navbar-brand {
   color: white;
-  font-size: 20px;
+  font-size: 3.5vw;
   font-weight: bold;
 }
+
 
 /* Navbar hover effects */
 .navbar-default .navbar-brand:hover,
@@ -81,10 +82,13 @@ header {
     color: #ebd122;
 }
 
+a {
+  font-size: .75vw;
+}
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
   color: #FF0000;
-  font-size: 16px;
+  font-size: 3.5vw;
 }
 
 /* Navbar collapsed styles */
@@ -133,9 +137,7 @@ hr {
   border-width: 2px;
 }
 
-p {
-  font-size: 20px;
-}
+
 
 a {
   color: #8B0000;
@@ -178,7 +180,7 @@ body {
         margin:0;
     }
     #nav a:link {
-        color:#FF000;
+        color:#FF0000;
         background:#708090;
         padding:20px 40px 4px 10px;
         float:left;
@@ -188,6 +190,7 @@ body {
         font:bold 1em/1em Arial, Helvetica, sans-serif;
         text-transform:uppercase;
         text-shadow: 2px 2px 2px #555;
+        font-size: 4.5vw;
     }
     #nav a:hover {
         color:#fff;
@@ -230,3 +233,6 @@ body {
 
 .border { border-width: 25px; border-color: #8B0000; border-style: solid; }
 
+p {
+  font-size: 1.5vw;
+}
